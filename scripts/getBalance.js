@@ -1,5 +1,5 @@
 const hre = require("hardhat");
-const tokenContractJSON = require("../artifacts/contracts/Gurdwara.sol/Gurdwara.json");
+const tokenContractJSON = require("../artifacts/contracts/kapos.sol/kapos.json");
 
 const tokenAddress = "0x78EDe6348F07E5499340b709d4e325963Dc651d5"; // place your erc20 contract address here
 const tokenABI = tokenContractJSON.abi;
